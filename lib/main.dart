@@ -1,4 +1,6 @@
 import 'package:chat_app_tute/pages/login_page.dart';
+import 'package:chat_app_tute/pages/register_page.dart';
+import 'package:chat_app_tute/services/auth/login_or_register.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: LoginOrRegister(),
     );
   }
 }
